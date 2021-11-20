@@ -7,7 +7,7 @@ import os
 from random import randint
 import pywhatkit
 
-# create a voice recognition and synthesis engine
+# create a text-to-speech engine
 engine = pyttsx3.init('sapi5')
 engine.setProperty('volume', 1.0)
 # Getting available properties: engine has inbuilt voices in it that are extracted using the following command
